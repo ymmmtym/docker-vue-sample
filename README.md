@@ -8,6 +8,8 @@ npm install
 
 ### exit interpreter
 ```
+.exit
+# or
 process.exit();
 ```
 
