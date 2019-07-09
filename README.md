@@ -1,12 +1,12 @@
 # vue_project
-## vue
-### vue init
+## vue init
 ```
 vue init webpack
 npm install
 ```
 
-### exit interpreter
+### node interpreter
+#### exit
 ```
 .exit
 # or
