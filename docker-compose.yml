@@ -7,6 +7,5 @@ services:
     tty: true
     volumes:
       - ./app:/root/app
-      - ./scripts:/root/scripts
     ports:
       - "9000:9000"
