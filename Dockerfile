@@ -1,7 +1,8 @@
 FROM node:10.13-alpine
-MAINTAINER yumemo
+LABEL Maintainer="yumemo"
+
 WORKDIR /root/app
-ENV HOSTNAME="vue-container" \
+ENV HOSTNAME="vue" \
     PS1="[\u@\h \W]# "
 RUN apk update && \
     npm install -g npm vue-cli
