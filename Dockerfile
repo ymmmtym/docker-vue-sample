@@ -1,5 +1,5 @@
 FROM node:10.13-alpine
-LABEL Maintainer="yumemo"
+LABEL Maintainer="ymmmtym"
 
 WORKDIR /opt/app
 ENV HOSTNAME="vue" \
